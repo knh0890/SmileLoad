@@ -1,9 +1,26 @@
-Springboot web development for JAVA Backend Engineer Class 2024
+# SpringBootProject - Smile Road
+SpringBoot(MyBatis) + JSP 
 
-Team members: Nahyun Kim, Davin Jang, Yerim Na, Keon Kim
+## 🖥️프로젝트 소개 
+사회적 약자들이 일상생활 속에 이동의 어려움을 겪는 사람들을 위한 웹페이지 제작하였습니다.
 
-Timeline: Aug 2024 to Sept 2024
+## 📅개발 기간
+* 24.07.31 ~ 24.09.05 / 참여 인원: 4명
 
-Tools that we used: SpringToolSuite4, Eclipse, Git, GitHub, VS Code, Oracle SQL Developer, Slack, Trello, Source Tree
+## ⚙️개발 환경
+- `Java 17`
+- `JDK 17.0.11`
+- **IDE** : STS 4.0
+- **Framework** : Springboot(3.3.2)
+- **Database** : Oracle DB(21c)
+- **ORM** : MyBatis
+  
+## 📌주요 기능
+* 편의 시설의 위치를 알려주는 지도 제공
+* 편의 시설의 정보를 알려주는 정보 제공
+* 게시판을 통한 정보 공유 게시판, 관리자와의 문의 게시판, 주요 사항 공지 게시판
 
-Add extra info here
+## ✔담당한 부분
+* 공지사항 게시판을 담당하고 **MyBatis**를 사용하여 게시판의 CRUD를 구현하였습니다.
+* **JSP**를 활용하여 **JSTL**과 **EL**을 사용하여 화면을 구성하였습니다.
+* 공공데이터를 사용하여 위도, 경도 위치를 제공 받고 카카오 **지도 API**를 활용해 지도 클릭 시 해당하는 위치의 중심 좌표를 가져와 주변에 있는 승강기와 화장실 정보를 보여주었습니다.
